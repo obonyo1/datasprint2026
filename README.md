@@ -1,7 +1,6 @@
-# DataSprint 2026: Strathmore Data Community × iLab Africa
+## DataSprint 2026: Strathmore Data Community × iLab Africa
 
 Predicting financial outcomes for Kenyan adults using the 2024 FinAccess Household Survey.
-
 
 
 ## The Task
@@ -36,7 +35,7 @@ The EDA and Cleaning notebook is complete and fully executed. It covers:
 
 Key findings are documented inside the notebook with actual numbers.
 
----
+
 
 ## What Still Needs to Be Done
 
@@ -54,7 +53,7 @@ Key findings are documented inside the notebook with actual numbers.
 
 ---
 
-## Important Notes for Jimmy
+**Some Notes for Modeling**
 
 | Item | Detail |
 |---|---|
@@ -67,7 +66,7 @@ Key findings are documented inside the notebook with actual numbers.
 | Strong predictors (from EDA) | `experienced_shock`, `nfhi_11`, `nfhi_13`, `accessto_13k_1month`, `county` |
 | Train/test split | Always use `stratify=y` because of class imbalance |
 
----
+
 
 ## Setup
 
@@ -77,9 +76,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
 Place both data files in the same folder as the notebooks before running.
 
----
+
 
 ## Data Source
 
-2024 FinAccess Household Survey — Central Bank of Kenya, KNBS, FSD Kenya.
+2024 FinAccess Household Survey: Central Bank of Kenya, KNBS, FSD Kenya.
 Kaggle: https://www.kaggle.com/datasets/davidpbriggs/kenya-finaccess-household-survey-2024
